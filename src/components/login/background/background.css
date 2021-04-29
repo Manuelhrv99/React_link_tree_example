@@ -1,0 +1,12 @@
+#loginBackground
+{
+    display: flex;
+    justify-content: center;
+}
+
+#loginImg
+{
+    margin-top: 5vw;
+    height: 40vw;
+    border-radius: 5%;
+}
