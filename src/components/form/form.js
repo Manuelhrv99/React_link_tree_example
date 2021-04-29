@@ -1,12 +1,17 @@
-import './buttons.css';
+import './form.css';
+import Logo from './Logo.png';
 import { Link } from 'react-router-dom';
 
-export default function Background() {
+export default function FormComponent() {
     return (
 
         <div id="loginButtons">
 
             <div id="loginForm">
+
+                <div id="logo">
+                    <img style={{maxWidth: "120px"}} src={Logo} alt="Mawis logo" />
+                </div>
 
                 <div className="grid">
                     <form className="form login">
@@ -29,7 +34,7 @@ export default function Background() {
                         </div>
 
                         {/* Input de la contraseña */}
-                        <div style={{ marginBottom: "5vw" }} className="form__field">
+                        <div style={{ marginBottom: "2vw" }} className="form__field">
                             <label style={{ marginBottom: "0" }}>
                                 <svg className="icon">
                                     <use href="#icon-lock" />

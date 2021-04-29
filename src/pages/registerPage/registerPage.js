@@ -1,11 +1,11 @@
 import './registerPage.css';
-import Buttons from '../../components/login/buttons';
+import FormComponent from '../../components/form';
 
 export default function RegisterPage() {
     return (
         <div>
             <h1>Pagina de registro</h1>
-            <Buttons />
+            <FormComponent />
         </div>
     );
 }

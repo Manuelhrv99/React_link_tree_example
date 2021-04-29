@@ -1,10 +1,12 @@
 import './loginPage.css';
-import Buttons from '../../components/login/buttons';
+import FormComponent from '../../components/form';
+import Logo from '../../components/logo';
 
 export default function LoginPage() {
   return (
     <div>
-      <Buttons />
+      <Logo />
+      <FormComponent />
     </div>
   );
 }

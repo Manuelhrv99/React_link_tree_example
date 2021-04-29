@@ -2,7 +2,6 @@ import {
     BrowserRouter,
     Route,
     Redirect,
-    Switch
 } from 'react-router-dom';
 
 import LoginPage from '../../pages/loginPage/loginPage';
@@ -12,11 +11,9 @@ export default function Router() {
     return (
         <div>
             <BrowserRouter>
-                <Switch>
-                    <Route path="/login" component={LoginPage} />
-                    <Route path="/register" component={RegisterPage} />
-                    <Redirect exact path="/" to="/login" />
-                </Switch>
+                <Route path="/login" component={LoginPage} />
+                <Route path="/register" component={RegisterPage} />
+                <Redirect exact path="/" to="/login" />
             </BrowserRouter>
         </div>
     );
