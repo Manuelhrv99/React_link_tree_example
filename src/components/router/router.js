@@ -4,7 +4,7 @@ import {
     Redirect
 } from 'react-router-dom';
 
-import LoginPage from '../../pages/loginPage';
+import LoginPage from '../../pages/loginPage/loginPage';
 
 export default function Router() {
     return (
