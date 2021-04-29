@@ -1,12 +1,19 @@
 #loginButtons 
 {
     position: absolute;
-    top: 13vw;
+    top: 30%;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
     width: 20vw;
+}
+
+#loginForm
+{
+    padding: 20px;
+    background-color: rgba(32, 32, 32, 0.945);
+    border-radius: 5%;
 }
 
 .grid 
@@ -18,7 +25,8 @@
 
 /* Span entre el icono y el input */
 
-.hidden {
+.hidden 
+{
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -80,9 +88,53 @@ input
     --formFieldMargin: 0.875rem;
 }
 
+/* Que tan ancho el el form */
+
+/* Tamaño pantalla completa */
 .form 
 {
     margin: calc(var(--formFieldMargin) * -1);
+}
+
+/* Tamaño grande */
+@media (max-width: 1150px) 
+{
+    .form 
+    {
+        margin: calc(var(--formFieldMargin) * -2);
+    }
+}
+
+/* Tamaño mediano */
+@media (max-width: 900px) 
+{
+    .form 
+    {
+        margin: calc(var(--formFieldMargin) * -3);
+    }
+}
+
+/* Tamaño tablet */
+@media (max-width: 768px) 
+{
+    .form 
+    {
+        margin: calc(var(--formFieldMargin) * -6);
+    }
+
+    #loginButtons 
+    {
+        top: 40%;
+    }
+}
+
+/* Tamaño celular */
+@media (max-width: 420px) 
+{
+    .form 
+    {
+        margin: calc(var(--formFieldMargin) * -7);
+    }
 }
 
 .form input[type="password"],
@@ -93,7 +145,7 @@ input
     inline-size: 100%;
 }
 
-.form__field 
+.form__field
 {
     display: flex;
     margin: var(--formFieldMargin);
