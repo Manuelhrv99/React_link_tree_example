@@ -1,5 +1,5 @@
 import './loginPage.css';
-import Background from '../../components/form/background';
+import Background from '../../components/login/background';
 
 export default function LoginPage() {
   return (

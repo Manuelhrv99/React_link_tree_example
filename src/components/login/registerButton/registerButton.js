@@ -1,5 +1,5 @@
 import './registerButton.css';
-import '../form.css';
+import '../login.css';
 import { Link } from 'react-router-dom';
 
 export default function RegisterButton() {

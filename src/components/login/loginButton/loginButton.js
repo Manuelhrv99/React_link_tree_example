@@ -1,5 +1,5 @@
 import './loginButton.css';
-import '../form.css';
+import '../login.css';
 
 export default function LoginButton() {
     return (

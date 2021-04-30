@@ -1,5 +1,5 @@
 import './inputs.css';
-import '../form.css';
+import '../login.css';
 
 export default function Inputs() {
     return (

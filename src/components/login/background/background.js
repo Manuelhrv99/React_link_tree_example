@@ -1,5 +1,5 @@
 import './background.css';
-import '../form.css';
+import '../login.css';
 import Logo from '../logo';
 import Inputs from '../inputs';
 import LoginButton from '../loginButton';
