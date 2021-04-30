@@ -1,0 +1,174 @@
+.grid 
+{
+    inline-size: 90%;
+    margin-inline: auto;
+    max-inline-size: 20rem;
+}
+
+/* Span entre el icono y el input */
+
+.hidden 
+{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; 
+}
+
+.icons 
+{
+    display: none;
+}
+
+:root 
+{
+    --baseColor: #bdbebe;
+}
+
+:root 
+{
+    --iconFill: var(--baseColor);
+}
+
+.icon 
+{
+    block-size: 1em;
+    display: inline-block;
+    fill: var(--iconFill);
+    inline-size: 1em;
+    vertical-align: middle;
+}
+
+::placeholder
+{
+    color: #bdbebe;
+}
+
+input 
+{
+    background-image: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+/* Que tan ancho el form */
+:root 
+{
+    --formFieldMarginSignIn: 0.875rem;
+}
+
+/* Tamaño pantalla completa */
+.formSignIn
+{
+    margin: calc(var(--formFieldMarginSignIn) * -5);
+}
+
+/* Tamaño grande */
+@media (max-width: 1150px) 
+{
+    .formSignIn 
+    {
+        margin: calc(var(--formFieldMarginSignIn) * -2);
+    }
+}
+
+/* Tamaño mediano */
+@media (max-width: 900px) 
+{
+    .formSignIn 
+    {
+        margin: calc(var(--formFieldMarginSignIn) * -3);
+    }
+}
+
+/* Tamaño tablet */
+@media (max-width: 768px) 
+{
+    .formSignIn 
+    {
+        margin: calc(var(--formFieldMarginSignIn) * -6);
+    }
+}
+
+/* Tamaño celular */
+@media (max-width: 420px) 
+{
+    .formSignIn 
+    {
+        margin: calc(var(--formFieldMarginSignIn) * -7);
+    }
+}
+
+.formSignIn input[type="password"],
+.formSignIn input[type="text"]
+{
+    inline-size: 100%;
+}
+
+.form__field
+{
+    display: flex;
+    margin: var(--formFieldMarginSignIn);
+}
+
+.form__input 
+{
+    flex: 1;
+}
+
+/* Estilos para los inputs */
+
+:root 
+{
+    --loginBorderRadus: 0.25rem;
+    --loginColor: #eee;
+    --loginInputBackgroundColor: #263647b7;
+    --loginInputHoverBackgroundColor: #3e5674c7;
+    --loginLabelBackgroundColor: #263647b7;
+}
+
+.login 
+{
+    color: var(--loginColor);
+}
+
+.login label,
+.login input[type="text"],
+.login input[type="password"]
+{
+    border-radius: var(--loginBorderRadus);
+    padding: 1rem;
+}
+
+.login label 
+{
+    background-color: var(--loginLabelBackgroundColor);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-inline: 1.25rem;
+}
+
+.login input[type="password"],
+.login input[type="text"] 
+{
+    background-color: var(--loginInputBackgroundColor);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.login input[type="password"]:focus,
+.login input[type="password"]:hover,
+.login input[type="text"]:focus,
+.login input[type="text"]:hover 
+{
+    background-color: var(--loginInputHoverBackgroundColor);
+}
