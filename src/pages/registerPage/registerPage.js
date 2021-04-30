@@ -1,11 +1,11 @@
 import './registerPage.css';
-import FormComponent from '../../components/form';
+import Background from '../../components/form/background';
 
 export default function RegisterPage() {
     return (
         <div>
             <h1>Pagina de registro</h1>
-            <FormComponent />
+            <Background />
         </div>
     );
 }

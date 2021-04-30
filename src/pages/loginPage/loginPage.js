@@ -1,12 +1,10 @@
 import './loginPage.css';
-import FormComponent from '../../components/form';
-import Logo from '../../components/logo';
+import Background from '../../components/form/background';
 
 export default function LoginPage() {
   return (
     <div>
-      <Logo />
-      <FormComponent />
+      <Background />
     </div>
   );
 }

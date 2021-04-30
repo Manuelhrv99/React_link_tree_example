@@ -1,0 +1,10 @@
+#formLogo
+{
+    height: 120px;
+    width: 120px;
+    background-color: rgba(54, 99, 223, 0.329);
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
