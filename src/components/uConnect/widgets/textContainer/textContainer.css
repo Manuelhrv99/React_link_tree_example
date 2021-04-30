@@ -1,0 +1,28 @@
+.Indentation
+{
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+.InLine > div
+{
+    display: inline-block;
+    width: 50%;
+}
+
+#ContainerTitle
+{
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#ContainerSubtitle
+{
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#ContainerTag
+{
+    margin-bottom: 0;
+    text-align: right;
+}

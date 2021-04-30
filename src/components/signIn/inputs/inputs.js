@@ -29,8 +29,10 @@ export default function Inputs() {
                                 </div>
                             </Col>
                             <Col style={{ padding: "0" }}>
+                                {/* Input de la edad */}
                                 <div className="form__field">
                                     <input autoComplete="Age"
+                                        style={{borderRadius: "0.25rem"}}
                                         type="text"
                                         name="name"
                                         className="form__input"
@@ -114,8 +116,10 @@ export default function Inputs() {
                         </Row>
                     </Container>
 
+                    {/* Input de la descripcion */}
                     <div style={{ marginBottom: "150px" }} className="form__field">
                         <input autoComplete="description"
+                            style={{borderRadius: "0.25rem"}}
                             type="text"
                             name="description"
                             className="form__input"

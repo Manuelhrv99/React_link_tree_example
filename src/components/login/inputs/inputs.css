@@ -129,7 +129,7 @@ input
 
 :root 
 {
-    --loginBorderRadus: 0.25rem;
+    --loginBorderRadius: 0.25rem;
     --loginColor: #eee;
     --loginInputBackgroundColor: #263647b7;
     --loginInputHoverBackgroundColor: #3e5674c7;
@@ -145,7 +145,7 @@ input
 .login input[type="text"],
 .login input[type="password"]
 {
-    border-radius: var(--loginBorderRadus);
+    border-radius: var(--loginBorderRadius);
     padding: 1rem;
 }
 
