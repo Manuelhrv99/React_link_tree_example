@@ -1,9 +1,10 @@
 import './inputs.css';
 import '../login.css';
+import { Fragment } from 'react'
 
 export default function Inputs() {
     return (
-        <div className="center">
+        <Fragment className="center">
 
             <div className="grid">
                 <form className="form login">
@@ -57,6 +58,6 @@ export default function Inputs() {
                 </symbol>
             </svg>
 
-        </div>
+        </Fragment>
     );
 }
