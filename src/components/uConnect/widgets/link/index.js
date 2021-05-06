@@ -52,7 +52,7 @@ export default function Link(props) {
                         </Col>
                     </Row>
 
-                    <Divider />
+                    {props.divider ? <Divider /> : <hr style={{ margin: "0", borderTop: '0' }} />}
 
                 </div>
             </Container>

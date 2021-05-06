@@ -5,6 +5,8 @@ import ImageCarousel from '../../components/uConnect/widgets/imageCarousel';
 import TextContainer from '../../components/uConnect/widgets/textContainer';
 import Card from '../../components/uConnect/widgets/card';
 import Link from '../../components/uConnect/widgets/link';
+import Qr from '../../components/uConnect/qr';
+import Footer from '../../components/uConnect/footer';
 
 //***Props***
 //ProfileImg
@@ -49,6 +51,8 @@ const linkTitle3 = "Twitter";
 const linkText3 = "Sigueme en Twitter!";
 const linkImage3 = "https://www.flaticon.com/svg/vstatic/svg/25/25347.svg?token=exp=1620198986~hmac=ad3f7c9df9790e29a1ce9eec529db3a8";
 const linkRef3 = "https://twitter.com/sundarpichai?lang=es";
+//Qr
+const qrImage = 'https://thumbs.dreamstime.com/t/retrato-lindo-del-gato-foto-cuadrada-105311158.jpg';
 
 const bgColor = "#292929";
 document.body.style = 'background:' + bgColor + ';';
@@ -64,9 +68,11 @@ export default function uConnect() {
       <Card title={cardTitle} text={cardText} src={cardImage} />
       <Card title={cardTitle2} text={cardText2} src={cardImage2} />
       <Card title={cardTitle3} text={cardText3} src={cardImage3} />
-      <Link title={linkTitle} text={linkText} src={linkImage} link={linkRef} />
-      <Link title={linkTitle2} text={linkText2} src={linkImage2} link={linkRef2} />
-      <Link title={linkTitle3} text={linkText3} src={linkImage3} link={linkRef3} />
+      <Link title={linkTitle} text={linkText} src={linkImage} link={linkRef} divider={true} />
+      <Link title={linkTitle2} text={linkText2} src={linkImage2} link={linkRef2} divider={true} />
+      <Link title={linkTitle3} text={linkText3} src={linkImage3} link={linkRef3} divider={false} />
+      <Qr src={qrImage} />
+      <Footer />
     </div>
   );
 }
