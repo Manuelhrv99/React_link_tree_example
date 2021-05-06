@@ -18,7 +18,7 @@ export default function Router() {
                 <Route path="/login" component={LoginPage} />
                 <Route path="/register" component={RegisterPage} />
                 <Route path="/user" component={uConnect} />
-                <Redirect exact path="/" to="/user" />
+                <Redirect exact path="/" to="/login" />
             </BrowserRouter>
         </div>
     );

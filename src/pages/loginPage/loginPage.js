@@ -1,10 +1,15 @@
 import './loginPage.css';
-import Background from '../../components/login/background';
+import Login from '../../components/login';
+import { Provider } from 'react-redux';
+import GenerateStore from '../../redux/store';
 
 export default function LoginPage() {
+
+  const store = GenerateStore();
+
   return (
-    <div>
-      <Background />
-    </div>
+    <Provider store={store}>
+      <Login />
+    </Provider>
   );
 }

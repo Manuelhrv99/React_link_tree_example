@@ -1,10 +1,10 @@
 import './registerPage.css';
-import Background from '../../components/signIn/background';
+import Register from '../../components/register';
 
 export default function RegisterPage() {
     return (
         <div>
-            <Background />
+            <Register />
         </div>
     );
 }
