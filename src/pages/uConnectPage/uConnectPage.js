@@ -10,7 +10,7 @@ import Footer from '../../components/uConnect/footer';
 
 //***Props***
 //ProfileImg
-const imgSrc = 'https://snz04pap002files.storage.live.com/y4mtsLqweEgUYS7iKw85wMKT5WTCYc_cZz0xxoaVt126x3X3gBlAGnITSipwn7CyyWS4eCuKPhuQzT1Qg8yr2_Zx_cEnv8TeZmmGgJTDo_0xZmdz62Fvd5tHweik7DAkCVbuS-IwJCZZDqdRmuClLuoV57v-yKtLcq0G3P7keZsdZTZFrgKq_ERh9WCS-MI0ZhM?width=2600&height=2600&cropmode=none';
+const imgSrc = 'https://snz04pap002files.storage.live.com/y4mpe1ZTEt6cdSwWqXnO2fcoQu60vBld4vs1syzzqF1j3nQobLkRvG06vhaj5H3KCu79R2FW3LJ8Iq3bbgzzpT37YC8TcR6YB2mawNBmXU3MAjpGy6RVRb3a_8tUXbNnkDZ50E6hS8BD44E77ZR7MSQOGTPc-1vCYw96RS3ZSMuMmE2Njz2v4w5IVgAZ9EGNnM8?width=2600&height=2600&cropmode=none';
 //ProfileTitle
 const title = 'Hugo Angeles';
 //ProfileSubtitle

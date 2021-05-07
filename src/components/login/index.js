@@ -4,13 +4,7 @@ import { GetUserAction } from '../../redux/loginDucks';
 import "./login.css";
 import Login_img from "../Logo.png";
 // import { auth } from "./firebase";
-import {
-    //BrowserRouter as Router,
-    // Switch,
-    // Route,
-    Link,
-    useHistory,
-} from "react-router-dom";
+import { Link, useHistory,} from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(({
@@ -29,20 +23,11 @@ function Login() {
 
     const user = useSelector(store => store.users.array)
 
-    // var userArray = user.map(function (obj) {
-    //     var rObj = {};
-    //     rObj[obj.correoElectronico] = obj.contraseña;
-    //     return rObj;
-    // });
-    // console.log(userArray)
-
     const classes = useStyles();
 
     const history = useHistory("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-
-    //user.forEach(element => console.log(element.correoElectronico));
 
     function auth (email, password) {
         user.forEach(element => {

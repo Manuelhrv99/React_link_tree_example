@@ -1,8 +1,5 @@
-/*import React, { useState } from "react";*/
-// import { auth, db } from "./firebase";
 import "./register.css";
 import LogoImg from "../Logo.png";
-/*import { useHistory } from "react-router-dom";*/
 import { Link } from 'react-router-dom';
 import { Col, Row } from 'react-bootstrap';
 
@@ -19,9 +16,7 @@ function Register() {
                     <Row>
                         <Col xs={6}>
                             <input
-                                // onChange={(e) => {
-                                //     setFirstName(e.target.value);
-                                // }}
+                                
                                 className="register__name"
                                 type="name"
                                 placeholder="Name"
@@ -29,9 +24,7 @@ function Register() {
                         </Col>
                         <Col xs={6}>
                             <input
-                                // onChange={(e) => {
-                                //     setLastName(e.target.value)
-                                // }}
+                               
                                 className="register__name"
                                 type="username"
                                 placeholder="Username"
@@ -40,16 +33,14 @@ function Register() {
                     </Row>
                     <center>
                         <input
-                            // onChange={(e) => {
-                            //     setEmail(e.target.value);
-                            // }}
+                           
                             type="email"
                             placeholder="Email"
                         />
                     </center>
                     <center>
                         <input
-                            // onChange={(event) => setPassword(event.target.value)}
+                            
                             type="password"
                             placeholder="New Password"
                         />
@@ -57,7 +48,7 @@ function Register() {
                     <h5 className="register__date">Date Of Birth</h5>
                     <div className="row">
                         <select className="register__date2"
-                        // onChange={(e) => setBirthday([...birthday, e.target.value])}
+                        
                         >
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -93,7 +84,7 @@ function Register() {
                         </select>
 
                         <select className="register__date3"
-                        // onChange={(e) => setBirthday([...birthday, e.target.value])}
+                        
                         >
                             <option value="1">Jan</option>
                             <option value="2">Feb</option>
@@ -110,7 +101,7 @@ function Register() {
                         </select>
 
                         <select className="register__date3"
-                        // onChange={(e) => setBirthday([...birthday, e.target.value])}
+                        
                         >
                             <option value="2018">2020</option>
                             <option value="2018">2019</option>
@@ -237,14 +228,14 @@ function Register() {
                         <div className="wrapper">
                             <label>Female</label>
                             <input
-                                // onChange={(e) => setGender(e.target.value)}
+                                
                                 type="radio" name="gender" value="Female" />
                         </div>
 
                         <div className="wrapper">
                             <label>Male</label>
                             <input
-                                // onChange={(e) => setGender(e.target.value)}
+                                
                                 type="radio" name="gender" value="Male" />
                         </div>
 
@@ -258,7 +249,7 @@ function Register() {
 
                     <center>
                         <button
-                            // onClick={register}
+                            
                             type="submit"
                             className="register__register"
                         >

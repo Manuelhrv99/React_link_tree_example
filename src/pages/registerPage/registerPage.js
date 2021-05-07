@@ -1,4 +1,3 @@
-import './registerPage.css';
 import Register from '../../components/register';
 
 export default function RegisterPage() {
