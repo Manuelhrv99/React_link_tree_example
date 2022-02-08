@@ -2,7 +2,7 @@
 
 Application using react to make a simple redirection page.
 
-## Deploiment
+## Deployment
 
 To run this project you need to download Node.js
 
