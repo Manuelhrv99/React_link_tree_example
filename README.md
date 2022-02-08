@@ -2,6 +2,8 @@
 
 Application using react to make a simple redirection page.
 
+(https://github.com/Manuelhrv99/React_link_tree_example/blob/master/Ex1.png)
+
 ## Deployment
 
 To run this project you need to download Node.js
