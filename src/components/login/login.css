@@ -66,41 +66,10 @@
     font-size: 20px;
     line-height: 48px;
     padding: 0 16px;
-    width: 332px;
+    margin-top: 20px;
+    width: 303px;
     color: #fff;
 }
-
-.sideinfo{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    
-    justify-content: center;
-    
-}
-
-.sideinfo > h6 {
-    color: #1877f2;
-    font-family: Helvetica, sans-serif;
-    cursor: pointer;
-}
-
-.rtd {
-    color: #1877f2 !important;
-    font-family: Helvetica, sans-serif;
-    font-weight: 500;
-    cursor: pointer;
-}
-.sideinfo Link, .sideinfo Link h5 {
-    text-decoration: none;
-}
-
-
-
-.sideinfo h5:hover {
-    text-decoration : underline;
-}
-
 
 
 .login__container > form > center > hr {
@@ -108,17 +77,6 @@
     color: rgb(221, 221, 221);
     border: 1px solid;
     width: 100px;
-}
-
-.login__createNewAccount {
-    background-color: rgba(66,183,42);
-    border: none;
-    color: #fff;
-    
-    border-radius: 2px;
-    width: 185px;
-    margin-top: 10px;
-    height: 43px;
 }
 
 .login__container > form > center >  h6 {

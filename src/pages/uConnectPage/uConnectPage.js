@@ -8,13 +8,22 @@ import Link from '../../components/uConnect/widgets/link';
 import Qr from '../../components/uConnect/qr';
 import Footer from '../../components/uConnect/footer';
 
+//Imagenes
+import ProfilePic from '../../components/uConnect/profileImg/sundar.jpg';
+import MicroscopioImg from '../../components/uConnect/widgets/card/microscopio.png';
+import AtomoImg from '../../components/uConnect/widgets/card/atomo.png';
+import RobotImg from '../../components/uConnect/widgets/card/robot.png';
+import FacebookImg from '../../components/uConnect/widgets/link/facebook.png';
+import YoutubeImg from '../../components/uConnect/widgets/link/youtube.png';
+import TwitterImg from '../../components/uConnect/widgets/link/twitter.png';
+
 //***Props***
 //ProfileImg
-const imgSrc = 'https://snz04pap002files.storage.live.com/y4mpe1ZTEt6cdSwWqXnO2fcoQu60vBld4vs1syzzqF1j3nQobLkRvG06vhaj5H3KCu79R2FW3LJ8Iq3bbgzzpT37YC8TcR6YB2mawNBmXU3MAjpGy6RVRb3a_8tUXbNnkDZ50E6hS8BD44E77ZR7MSQOGTPc-1vCYw96RS3ZSMuMmE2Njz2v4w5IVgAZ9EGNnM8?width=2600&height=2600&cropmode=none';
+const imgSrc = ProfilePic;
 //ProfileTitle
-const title = 'Hugo Angeles';
+const title = 'Sundar Pichai';
 //ProfileSubtitle
-const subtitle = 'Software Engineer';
+const subtitle = 'Google CEO';
 //Carrusel
 const img1 = '';
 const img2 = '';
@@ -27,29 +36,29 @@ const containerText = "Recopile e interpreté grandes cantidades de datos; logr�
 //Cards
 const cardTitle = "Investigación biológica";
 const cardText = "Asistí en la investigación sobre clonacion del ADN en el año 2018.";
-const cardImage = "https://www.flaticon.es/svg/vstatic/svg/3597/3597179.svg?token=exp=1620333364~hmac=b24275b3838eee1782ff6b437cb4dc28";
+const cardImage = MicroscopioImg;
 
 const cardTitle2 = "Ciencia nuclear";
 const cardText2 = "Tuve la fortuna de participar en una investigion de atomos.";
-const cardImage2 = "https://www.flaticon.es/svg/vstatic/svg/4593/4593871.svg?token=exp=1620333421~hmac=dd4f85c668aab25e7b4a5f4c132b4652";
+const cardImage2 = AtomoImg;
 
 const cardTitle3 = "Entrenamiento de robots";
 const cardText3 = "Ayude a crear la inteligencia artificial de un robot en Japon.";
-const cardImage3 = "https://www.flaticon.es/svg/vstatic/svg/3597/3597179.svg?token=exp=1620333364~hmac=b24275b3838eee1782ff6b437cb4dc28";
+const cardImage3 = RobotImg;
 //Links
 const linkTitle = "Facebook";
 const linkText = "Sigueme en Facebook!";
-const linkImage = "https://www.flaticon.es/svg/vstatic/svg/1051/1051309.svg?token=exp=1620333170~hmac=e7efa81143ba890095a861bcbb3e81e6";
+const linkImage = FacebookImg;
 const linkRef = "https://www.facebook.com/sundar.pichai";
 
 const linkTitle2 = "Youtube";
 const linkText2 = "Sigueme en Youtube!";
-const linkImage2 = "https://www.flaticon.es/premium-icon/icons/svg/3536/3536438.svg";
+const linkImage2 = YoutubeImg;
 const linkRef2 = "https://www.youtube.com/channel/UCK8sQmJBp8GCxrOtXWBpyEA";
 
 const linkTitle3 = "Twitter";
 const linkText3 = "Sigueme en Twitter!";
-const linkImage3 = "https://www.flaticon.es/svg/vstatic/svg/25/25347.svg?token=exp=1620333206~hmac=f369dd3eb4f597fe6254878e8f741a5e";
+const linkImage3 = TwitterImg;
 const linkRef3 = "https://twitter.com/sundarpichai?lang=es";
 //Qr
 const qrImage = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeAQMAAABoqSz0AAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABSElEQVRYhe2X2Q3EIAxELVEAJdF6SqIAJK89k5BjGxgkLJQQHh/BGh+Ybdu2pnnaUXorfliNkd9DFea7HiOWzUo3TnRh9VjwXHazFhvjZOowrDdsWQCWVEpKRh1CJiHqOf/TkBBkCI46x398CsHrQI2ifi/LQTobvx8ZzlMv7rIQkRcaIfHrTKIwIi+Xs3R4JoyX4+Vg/DufsQvJ2DERhflFjeAc9PpQhZmDQynRQWT8tcwZdyDKwXhDJvC9R31G76MKUTfgcooFtW6oQlYMg7+vzHGfUw0a1pJcuS2HMkR64y72PrKQQkZWmweapgfRpBd0PaUD3o6XgzReLNj2ejdThWwn7ax1ja26LJzteSjF4PLx7eOVIK5BDEQ+H42PKDx7yXoWujUgSrQ/+ng5SJlU592dd4uhChmCSBXtLCDf+BSC27atZj/Kd6w+pngWagAAAABJRU5ErkJggg==';

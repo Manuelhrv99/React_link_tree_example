@@ -43,10 +43,10 @@ export default function Link(props) {
                             </a>
                         </Col>
                         <Col xs={7}>
-                            <a style={{color: "#845460"}} href={props.link}>
+                            <a style={{color: "#395B64"}} href={props.link}>
                                 <p className={classes.title}>{props.title}</p>
                             </a>
-                            <a style={{color: "#845460"}} href={props.link}>
+                            <a style={{color: "#395B64"}} href={props.link}>
                                 <p className={classes.text}>{props.text}</p>
                             </a>
                         </Col>

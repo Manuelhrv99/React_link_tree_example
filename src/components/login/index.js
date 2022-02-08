@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
+//API
+//import { useSelector } from 'react-redux';
 import { GetUserAction } from '../../redux/loginDucks';
 import "./login.css";
 import Login_img from "../Logo.png";
 // import { auth } from "./firebase";
-import { Link, useHistory,} from "react-router-dom";
+import { useHistory,} from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(({
@@ -21,7 +23,8 @@ function Login() {
 
     const dispatch = useDispatch();
 
-    const user = useSelector(store => store.users.array)
+    //API
+    //const user = useSelector(store => store.users.array)
 
     const classes = useStyles();
 
@@ -29,7 +32,8 @@ function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    function auth (email, password) {
+    //Funcion con API
+    /*function auth (email, password) {
         user.forEach(element => {
             if (element.correoElectronico === email) {
                 if (element.contraseña === password) {
@@ -40,6 +44,20 @@ function Login() {
                 }
             }
         });
+    }*/
+
+    function auth (email, password) {
+        if (email === "Admin") {
+            if (password === "1234") {
+                history.push("/user");
+            }
+            else{
+                alert("El usuario o la contraseña es incorrecta")
+            }
+        }
+        else{
+            alert("El usuario o la contraseña es incorrecta")
+        }
     }
     
 
@@ -47,7 +65,7 @@ function Login() {
         <div className="login">
             <img src={Login_img} className="login__logo" alt="Comapany logo" />
             <div className="login__container">
-                <h5 className={classes.text}>Log in to Uconnect</h5>
+                <h5 className={classes.text}>Login to Uconnect</h5>
                 <form>
                     <center>
                         <input
@@ -69,13 +87,6 @@ function Login() {
                         <button type="button" className="login__login" onClick={() => {dispatch(GetUserAction()); auth(email, password);}}>
                             Log In
                         </button>
-                    </center>
-                    <center>
-                        <div className="sideinfo">
-                            <Link to="/register" style={{ textDecoration: 'none' }}>
-                                <h6 className="rtd">Sign up to Uconnect</h6>
-                            </Link>
-                        </div>
                     </center>
                 </form>
             </div>
