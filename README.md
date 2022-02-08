@@ -19,3 +19,9 @@ Finally, run with:
 `npm start`
 
 ## Additionaly, you can connect an API with react-redux.
+
+# Login credentials:
+
+Admin = `Admin`
+
+Password = `1234`
