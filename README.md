@@ -2,6 +2,7 @@
 
 Application using react to make a simple redirection page.
 
+![Example image 1]
 (https://github.com/Manuelhrv99/React_link_tree_example/blob/master/Ex1.png?raw=true)
 
 ## Deployment
